@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello World'
+    return 'MLOPS Docker 101'
 
 @app.errorhandler(500)
 def server_error(e):
