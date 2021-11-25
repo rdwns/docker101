@@ -72,7 +72,7 @@ docker tag image:version username/image:version
 
 For Dockerhub the convention is usually like `docker push username/image_name` for other private container registries it's generally `docker push <container_registry_url>/imagename`
 
-The steps are the same, however, the commands are different for different cloud providers.
+You mostly have to login to the container registry first before you can push, pull the images. The steps for logging in remain the same, however, the commands are different for different cloud providers.
 
 ### Step 5: Pull the image into a separate system
 
