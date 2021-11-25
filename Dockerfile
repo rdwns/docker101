@@ -21,7 +21,7 @@ ENV PORT 8080
 EXPOSE $PORT
 
 # Setting Persistent data
-VOLUME ["/app-data"]
+# VOLUME ["/app-data"]
 
 # Running Python Application
 CMD gunicorn -b :$PORT -c gunicorn.conf.py main:app
