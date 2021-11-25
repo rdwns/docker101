@@ -1,6 +1,6 @@
 ### Docker 101 Training Session
 
-This repository containes the reference code for building and run a simple docker imageof a python based web application. If you're following along from the session you can refer the following steps incase you miss out on anything:
+This repository containes the reference code for building and running a simple docker image of a python based web application. If you're following along from the session you can refer the following steps incase you miss out on anything:
 
 
 ### Step 1: Create a Dockerfile
