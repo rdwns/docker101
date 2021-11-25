@@ -32,7 +32,6 @@ To get a list of all the images you've built, you can do **`docker image ls`**
 
 The command will give you an output that looks something like the following.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee1033cb-0674-4e21-8804-5f4f034d985d/Untitled.png)
 
 ### Step 3: Run image as a container
 
@@ -51,10 +50,11 @@ If you want to run your container in the background in a detached manner, you ca
 
 You can get a list of currently running containers by doing `docker ps`, which will give you each container running along with details about its Container ID, what image it was created from, when it was created, as well as which ports are open.
 
+
 <aside>
 ℹ️ To allow for easier management of containers use the `--name containerName` flag, Then you don't have to use the container ID hash to stop or kill the containers
-
 </aside>
+
 
 > How do I run a command inside a container?
 >
